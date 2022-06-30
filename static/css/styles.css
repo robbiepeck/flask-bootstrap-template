@@ -1,0 +1,44 @@
+h1, a {
+  text-align: center;
+}
+
+.notification {
+  background-color: green;
+  color: white;
+  text-align: center;
+  padding: 1%;
+}
+
+.error {
+  background-color: red;
+}
+
+.login {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+input {
+  width: 60%;
+  margin: 1%;
+  border-radius: 1px;
+  border-color: black;
+}
+
+button, a {
+  border-radius: 1px;
+  border-color: black;
+  margin: 1%;
+}
+
+button:hover, a:hover {
+  color: black;
+  background-color: white;
+}
+
+/*# sourceMappingURL=styles.css.map */

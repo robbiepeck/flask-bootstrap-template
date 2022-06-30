@@ -1,0 +1,12 @@
+<!-- This file is used to format and style Forms properly based on Flask Forms -->
+<!-- It is simply imported into any html file that will use a FlaskForm  -->
+{% macro render_field(field) %}
+  <div class="field">
+      {% if field.errors %}
+          {% for error in field.errors %}
+              <div class="notification error">{{ error }}</div>
+          {% endfor %}
+      {% endif %}
+      {{ field(placeholder=field.label.text) }}
+  </div>
+{% endmacro %}
